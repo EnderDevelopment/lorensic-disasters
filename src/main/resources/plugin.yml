@@ -1,0 +1,15 @@
+name: Lorensic Natural Disasters
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+author: EnderDevelopment
+description: A plugin featuring realistic natural disasters like tornados, hurricanes, lakebursts, tsunamis, and flashfloods.
+api-version: "1.21"
+commands:
+  disaster:
+    description: Manage natural disasters.
+    usage: /disaster <type> <intensity> <location>
+    permission: lorensicnaturaldisasters.admin
+permissions:
+  lorensicnaturaldisasters.admin:
+    description: Allows managing natural disasters.
+    default: op
